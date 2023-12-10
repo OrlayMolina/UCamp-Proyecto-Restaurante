@@ -8,65 +8,49 @@ function Footer() {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                     <ul className="text-black text-3xl font-medium">
                         <li className="mb-4">
-                            <a href="#" className=" hover:underline">About</a>
+                            <a href="#" className=" hover:underline">Nosotros</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Careers</a>
+                            <a href="#" className="hover:underline">Carreras</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Brand Center</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Blog</a>
-                        </li>
+
                     </ul>
                 </div>
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
                     <ul className="text-black text-3xl font-medium">
+
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Discord Server</a>
+                            <a href="#" className="hover:underline">Blog</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Twitter</a>
+                            <a href="#" className="hover:underline">Contáctanos</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Facebook</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Contact Us</a>
-                        </li>
+
                     </ul>
                 </div>
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                     <ul className="text-black text-3xl font-medium">
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Privacy Policy</a>
+                            <a href="#" className="hover:underline">Youtube</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Licensing</a>
+                            <a href="#" className="hover:underline">Correo</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                        </li>
+
                     </ul>
                 </div>
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
                     <ul className="text-black text-3xl font-medium">
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">iOS</a>
+                            <a href="#" className="hover:underline">Facebook</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Android</a>
+                            <a href="#" className="hover:underline">Twitter</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Windows</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">MacOS</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
