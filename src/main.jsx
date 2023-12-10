@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Header from './components/Header';
+import Layout from './components/Layout';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Header />
+    element: <Layout />
   }
 ]);
 
