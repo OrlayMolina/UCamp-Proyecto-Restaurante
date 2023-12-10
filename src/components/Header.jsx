@@ -11,7 +11,7 @@ function Header() {
       
             <div className="flex flex-col lg:flex-row items-center">
               <ul className="flex flex-wrap mb-4 lg:mb-0 gap-4">
-                <li><a href="#" className="text-3xl text-white font-sans">Nosotros</a></li>
+                <li><a href="/nosotros" className="text-3xl text-white font-sans">Nosotros</a></li>
                 <li><a href="#" className="text-3xl text-white font-sans">Menú</a></li>
                 <li><a href="#" className="text-3xl text-white font-sans">Reservaciones</a></li>
               </ul>
