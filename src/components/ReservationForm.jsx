@@ -1,29 +1,61 @@
 import { Form } from 'react-router-dom';
+import { useState } from 'react'
+import { db } from '../config/database';
+import { collection, addDoc, getDocs } from "firebase/firestore";
 
 function ReservationForm() {
+
+  const [formulario, setFormulario] = useState({
+    nombres:"",
+    apellidos:"",
+    cuantos: "",
+    fecha: ""
+  });
+
+
+  const handleInputChange = (event) => {
+    setFormulario({
+        ...formulario,
+        [event.target.name]: event.target.value
+    });
+  }
+
+  const reservar = async (event) => {
+    event.preventDefault();
+    console.log(formulario);
+    // aqui ya podemos mandar "formulario" a firebase
+    await addDoc(collection(db, "reservaciones"), formulario);
+    // Al codigo siguiente es para traer esos datos....
+    const datos = await getDocs(collection(db, "reservaciones"));
+    console.log(datos.docs.map((doc)=> {return doc.data()}));
+  }
+
   return (
     <div className="mb-36 px-40">
       <h2 className="mt-12 text-center font-bold text-6xl mb-12">Reservación</h2>
 
-      <Form className="max-w-lg mx-auto">
+      <Form 
+        onSubmit={reservar}
+        className="max-w-lg mx-auto" 
+      >
         <div className="mb-6">
-          <label htmlFor="nombre" className="block mb-2 text-3xl font-medium text-gray-900">Nombres</label>
-          <input type="text" id="nombre" name="nombre" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
+          <label htmlFor="nombres" className="block mb-2 text-3xl font-medium text-gray-900">Nombres</label>
+          <input type="text" id="nombres" name="nombres" onChange={handleInputChange} className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="mb-6">
-          <label htmlFor="apellido" className="block mb-2 text-3xl font-medium text-gray-900">Apellidos</label>
-          <input type="text" id="apellido" name="apellido" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
+          <label htmlFor="apellidos" className="block mb-2 text-3xl font-medium text-gray-900">Apellidos</label>
+          <input type="text" id="apellidos" name="apellidos" onChange={handleInputChange} className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="mb-6">
-          <label htmlFor="asiento" className="block mb-2 text-3xl font-medium text-gray-900">Número de Asientos en Total</label>
-          <input type="text" id="asiento" name="asiento" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
+          <label htmlFor="cuantos" className="block mb-2 text-3xl font-medium text-gray-900">Número de Asientos en Total</label>
+          <input type="text" id="cuantos" name="cuantos" onChange={handleInputChange} className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="mb-6">
           <label htmlFor="fecha" className="block mb-2 text-3xl font-medium text-gray-900">Fecha de Reservación</label>
-          <input type="date" id="fecha" name="fecha" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
+          <input type="text" id="fecha" name="fecha" placeholder='dd/mm/aaaa' onChange={handleInputChange} className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="text-center">
