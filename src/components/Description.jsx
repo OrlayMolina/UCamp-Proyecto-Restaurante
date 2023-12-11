@@ -1,18 +1,11 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import imagen from "../assets/restaurante.png";
 
-function Nosotros() {
+function Description() {
     return (
         <>
-            <Header />
-
-            <div className="py-24 px-24">
-                <h2 className="mt-5 text-center font-bold text-6xl mb-12">Sobre Nosotros</h2>
-
-                <p className="mx-10 text-3xl mb-10 text-justify">¡Bienvenido a nuestro restaurante! Disfruta de nuestra variada y deliciosa oferta gastronómica mientras reservas fácilmente en línea. Nuestro acogedor ambiente te espera para una experiencia culinaria excepcional. ¡Ven y déjanos deleitar tus sentidos!.</p>
-
-                <p className="mx-10 text-3xl mb-10 text-justify">En el vibrante corazón de Armenia, Quindío, en el año 2012, nació <span className="font-bold">Sabores de Montaña</span> , una iniciativa familiar que se convirtió en un refugio culinario para los amantes de la buena comida. Inspirados por la riqueza cultural y gastronómica de la región cafetera de Colombia, la familia Gómez decidió compartir su pasión por la cocina tradicional quindiana.</p>
+            {/* Seccion */}
+            <div className="mb-24 px-40">
+                <h2 className="mt-12 text-center font-bold text-6xl mb-12">UCamp Restaurant</h2>
 
                 <p className="mx-10 text-3xl mb-10 text-justify">Con una visión clara de resaltar los sabores locales y ofrecer un espacio encantador para disfrutar de auténticos platos de la región, <span className="font-bold">Sabores de Montaña</span>  abrió sus puertas. Ubicado en un encantador edificio de estilo colonial restaurado, el restaurante se convirtió en un ícono reconocido por su ambiente acogedor y su exquisita oferta gastronómica.</p>
 
@@ -24,10 +17,8 @@ function Nosotros() {
 
 
             </div>
-
-            <Footer />
         </>
     )
 }
 
-export default Nosotros
+export default Description
