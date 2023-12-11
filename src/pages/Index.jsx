@@ -4,6 +4,7 @@ import estofado from '../assets/estofado.jpeg';
 import salchipapa from '../assets/salchipapa.jpg';
 import puntaAnca from '../assets/punta_anca.jpg';
 import espaguetis from '../assets/espaguetis.jpg';
+import imagen from "../assets/restaurante.png";
 
 function Index() {
     return (
@@ -21,7 +22,7 @@ function Index() {
                                 <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 font-sans">Filete de Salmón Glaseado con Cítricos</h5>
                             </a>
                             <p className="mb-6 font-normal text-gray-800 text-2xl font-sans ">Salmón fresco marinado en una mezcla cítrica y asado para un sabor exquisito.</p>
-                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 ">
                                 $42.000 COP
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -40,7 +41,7 @@ function Index() {
                                 <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 font-sans">Pollo al Curry con Arroz</h5>
                             </a>
                             <p className="mb-6 font-normal text-gray-800 text-2xl font-sans ">Trozos de pollo sazonados con especias y cocinados lentamente junto a arroz aromático.</p>
-                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                 $35.000 COP
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -59,7 +60,7 @@ function Index() {
                                 <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 font-sans">Estofado de Carne con Verduras</h5>
                             </a>
                             <p className="mb-6 font-normal text-gray-800 text-2xl font-sans ">Mezcla de carnes tiernas y verduras frescas cocidas a fuego lento en un caldo aromático.</p>
-                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                 $32.000 COP
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -78,7 +79,7 @@ function Index() {
                                 <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 font-sans">Salchipapa Gratinada</h5>
                             </a>
                             <p className="mb-6 font-normal text-gray-800 text-2xl font-sans ">Papas fritas crujientes cubiertas con queso gratinado derretido y acompañadas de sabrosas salchichas.</p>
-                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                 $22.000 COP
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -97,7 +98,7 @@ function Index() {
                                 <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 font-sans">Filete de Punta de Anca a la Parrilla</h5>
                             </a>
                             <p className="mb-6 font-normal text-gray-800 text-2xl font-sans ">Filete jugoso de punta de anca sazonado con hierbas y especias, asado a la parrilla.</p>
-                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                 $45.000 COP
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -116,7 +117,7 @@ function Index() {
                                 <h5 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 font-sans">Espaguetis a la Carbonara Tradicional</h5>
                             </a>
                             <p className="mb-6 font-normal text-gray-800 text-2xl font-sans ">Espaguetis al dente mezclados con una cremosa salsa de huevo, panceta, queso y pimienta negra.</p>
-                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                 $42.000 COP
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -126,6 +127,21 @@ function Index() {
                     </div>
 
                 </div>
+            </div>
+
+            {/* Seccion */}
+            <div className="mb-24 px-40">
+                <h2 className="mt-12 text-center font-bold text-6xl mb-12">UCamp Restaurant</h2>
+
+                <p className="mx-10 text-3xl mb-10 text-justify">Con una visión clara de resaltar los sabores locales y ofrecer un espacio encantador para disfrutar de auténticos platos de la región, <span className="font-bold">Sabores de Montaña</span>  abrió sus puertas. Ubicado en un encantador edificio de estilo colonial restaurado, el restaurante se convirtió en un ícono reconocido por su ambiente acogedor y su exquisita oferta gastronómica.</p>
+
+                <p className="mx-10 text-3xl mb-10 text-justify">A lo largo de los años, <span className="font-bold">Sabores de Montaña</span> se ha convertido en un verdadero emblema de la escena gastronómica de la región, celebrando la cultura local a través de sus platos y siendo un destino imprescindible para aquellos que buscan una experiencia culinaria auténtica en Armenia, Quindío.</p>
+
+                <div className="flex justify-center items-center rounded-md m-24">
+                    <img  src={imagen} alt="Descripción de la imagen" />
+                </div>
+
+
             </div>
 
         </>

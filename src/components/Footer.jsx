@@ -55,7 +55,7 @@ function Footer() {
                 </div>
             </div>
             <div className="px-4 py-6 bg-emerald-600 md:flex md:items-center md:justify-between">
-                <span className="text-white sm:text-center text-3xl">© 2023 UCamp. All Rights Reserved.
+                <span className="text-white sm:text-center text-3xl">© 2023 Orlay Molina. All Rights Reserved.
                 </span>
                 <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                     <a href="#" className="text-white hover:text-gray-900 ">
