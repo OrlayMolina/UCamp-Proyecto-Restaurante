@@ -1,0 +1,49 @@
+{
+    "hosting": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "headers": [
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ]
+        },
+        {
+          "source": "/reservacion",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ]
+        },
+        {
+            "source": "/menu",
+            "headers": [
+              {
+                "key": "Access-Control-Allow-Origin",
+                "value": "*"
+              }
+            ]
+          },
+          {
+            "source": "/nosotros",
+            "headers": [
+              {
+                "key": "Access-Control-Allow-Origin",
+                "value": "*"
+              }
+            ]
+          }
+      ]
+    }
+  }
+  
