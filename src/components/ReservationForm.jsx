@@ -7,22 +7,22 @@ function ReservationForm() {
 
       <Form className="max-w-lg mx-auto">
         <div className="mb-6">
-          <label htmlFor="nombre" className="block mb-2 text-3xl font-medium text-gray-900">Nombre</label>
+          <label htmlFor="nombre" className="block mb-2 text-3xl font-medium text-gray-900">Nombres</label>
           <input type="text" id="nombre" name="nombre" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="mb-6">
-          <label htmlFor="apellido" className="block mb-2 text-3xl font-medium text-gray-900">Apellido</label>
+          <label htmlFor="apellido" className="block mb-2 text-3xl font-medium text-gray-900">Apellidos</label>
           <input type="text" id="apellido" name="apellido" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="mb-6">
-          <label htmlFor="asiento" className="block mb-2 text-3xl font-medium text-gray-900">Número de Asientos</label>
+          <label htmlFor="asiento" className="block mb-2 text-3xl font-medium text-gray-900">Número de Asientos en Total</label>
           <input type="text" id="asiento" name="asiento" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
         <div className="mb-6">
-          <label htmlFor="fecha" className="block mb-2 text-3xl font-medium text-gray-900">Fecha</label>
+          <label htmlFor="fecha" className="block mb-2 text-3xl font-medium text-gray-900">Fecha de Reservación</label>
           <input type="date" id="fecha" name="fecha" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-emerald-500" />
         </div>
 
