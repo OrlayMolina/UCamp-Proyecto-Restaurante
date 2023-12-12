@@ -12,7 +12,7 @@
           "headers": [
             {
               "key": "Access-Control-Allow-Origin",
-              "value": "*"
+              "value": "https://orlay-andres-molina-proyecto11.netlify.app"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "headers": [
             {
               "key": "Access-Control-Allow-Origin",
-              "value": "*"
+              "value": "https://orlay-andres-molina-proyecto11.netlify.app"
             }
           ]
         },
@@ -30,7 +30,7 @@
             "headers": [
               {
                 "key": "Access-Control-Allow-Origin",
-                "value": "*"
+                "value": "https://orlay-andres-molina-proyecto11.netlify.app"
               }
             ]
           },
@@ -39,11 +39,10 @@
             "headers": [
               {
                 "key": "Access-Control-Allow-Origin",
-                "value": "*"
+                "value": "https://orlay-andres-molina-proyecto11.netlify.app"
               }
             ]
           }
       ]
     }
   }
-  
