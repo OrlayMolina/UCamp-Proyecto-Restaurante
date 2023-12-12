@@ -8,13 +8,13 @@ import espaguetis from '../assets/espaguetis.jpg';
 function Index() {
     return (
         <>
-            <div className='px-36 py-12'>
-                <h2 className="text-center font-bold text-6xl mb-10">Menú</h2>
+            <div className='px-3 lg:px-24 lg:py-24'> {/* Ajusta el padding horizontal para pantallas pequeñas */}
+                <h2 className="text-center font-bold text-6xl mb-10 mt-8">Menú</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12 lg:gap-24 sm:gap-36">
                     {/* Card 1 */}
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <div className="w-full bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
-                        <img className="rounded-t-lg w-96" src={salmon} alt="Filete de Salmon" />
+                        <img className="rounded-t-lg w-full" src={salmon} alt="Filete de Salmon" />
                         </a>
                         <div className="p-8">
                             <a  href="#">
@@ -31,9 +31,9 @@ function Index() {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <div className="w-full bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
-                        <img className="rounded-t-lg w-96" src={pollo} alt="Filete de Salmon" />
+                        <img className="rounded-t-lg w-full" src={pollo} alt="Filete de Salmon" />
                         </a>
                         <div className="p-8">
                             <a  href="#">
@@ -50,9 +50,9 @@ function Index() {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <div className="w-full bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
-                        <img className="rounded-t-lg w-96" src={estofado} alt="Filete de Salmon" />
+                        <img className="rounded-t-lg w-full" src={estofado} alt="Filete de Salmon" />
                         </a>
                         <div className="p-8">
                             <a  href="#">
@@ -69,9 +69,9 @@ function Index() {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <div className="w-full bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
-                        <img className="rounded-t-lg w-96" src={salchipapa} alt="Filete de Salmon" />
+                        <img className="rounded-t-lg w-full" src={salchipapa} alt="Filete de Salmon" />
                         </a>
                         <div className="p-8">
                             <a  href="#">
@@ -88,9 +88,9 @@ function Index() {
                     </div>
 
                     {/* Card 5 */}
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <div className="w-full bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
-                        <img className="rounded-t-lg w-96" src={puntaAnca} alt="Filete de Salmon" />
+                        <img className="rounded-t-lg w-full" src={puntaAnca} alt="Filete de Salmon" />
                         </a>
                         <div className="p-8">
                             <a  href="#">
@@ -107,9 +107,9 @@ function Index() {
                     </div>
 
                     {/* Card 6 */}
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <div className="w-full bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
-                        <img className="rounded-t-lg w-96" src={espaguetis} alt="Filete de Salmon" />
+                        <img className="rounded-t-lg w-full" src={espaguetis} alt="Filete de Salmon" />
                         </a>
                         <div className="p-8">
                             <a  href="#">

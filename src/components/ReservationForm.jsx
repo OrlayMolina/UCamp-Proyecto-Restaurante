@@ -31,12 +31,12 @@ function ReservationForm() {
   }
 
   return (
-    <div className="mb-36 px-40">
+    <div className="mb-36 px-4">
       <h2 className="mt-12 text-center font-bold text-6xl mb-12">Reservación</h2>
 
       <Form 
         onSubmit={reservar}
-        className="max-w-lg mx-auto" 
+        className="w-full md:max-w-lg mx-auto" 
       >
         <div className="mb-6">
           <label htmlFor="nombres" className="block mb-2 text-3xl font-medium text-gray-900">Nombres</label>

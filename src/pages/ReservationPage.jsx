@@ -21,7 +21,7 @@ function ReservationPage() {
         <>
             <Header />
             <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
-                <h2 className="text-6xl font-bold text-center mb-12">Reservaciones</h2>
+                <h2 className="text-6xl font-bold text-center mb-12 p-2">Reservaciones</h2>
 
                 <p className="text-3xl mb-10 text-justify">Planificar tu experiencia culinaria nunca fue tan sencillo. Verifica la disponibilidad para tu reservación y asegura tu lugar en nuestro encantador restaurante. Con solo unos clics, accede a nuestro sistema de reservas en línea, donde podrás seleccionar la fecha, hora y número de comensales para garantizar una experiencia gastronómica sin contratiempos. Nuestra plataforma de reservas está diseñada para ofrecerte comodidad y flexibilidad, permitiéndote explorar nuestras opciones de disponibilidad y encontrar el momento perfecto para tu visita.</p>
 
